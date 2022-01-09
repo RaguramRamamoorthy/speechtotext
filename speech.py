@@ -1,7 +1,5 @@
 import speech_recognition as sr
 import streamlit as st
-import pyaudio
-
 
 if st.button('Record'):
     r = sr.Recognizer()
